@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpeg" href="Resources/Pics/KIRA.jpeg">
+    <title>The Coder Shivam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Linking external JavaScript file -->
+    <script src="script.js"></script>
+    <!-- 
+    ->Semantic Tag
+    <header> = Introductory content.
+    <nav> = navigation bar, links
+    <main> = main content(sections, article, aside, div).
+    <section> = dependent content.
+    <aside> = side content.
+    <articles> = independent content.
+    <footer> = closing content.
+    -->
+
+    <!-- Header Tag -->
+    <header>
+    <!-- Heading Tag -->
+    <h1>Welcome to the website!</h1>
+    <div id="box1">
+        <img id="img3" src="Resources/Pics/Kira3.jpeg">
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html ">Contact Us</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <!-- Main Tag -->
+    <main>
+        <h3><p>This is the Home page</p></h3>
+        <p>Welcome to the home page. Here i'll teach u about html contents.</p>
+        <div class="container" id="container">
+            <div class="box" id="box2">
+                Box 2
+            </div>
+            <div class="box" id="box3">
+                Box 3
+            </div>
+            <p>This is #1</p>
+            <p>This is #2</p>
+            <div id="box6"><p>This is #3</p></div>
+        </div>
+        <p>This is #4</p>
+        <p>This is #5</p>
+        <div id="box4">
+            <img src="Resources/Pics/Kira2.jpeg" width="100px" id="img1">
+            <p>
+                I am Light Yagami.<br>
+                I'll become the god of the new world.<br>
+                Even gods of death fear me.
+            </p>
+            <br>
+            <img src="Resources/Pics/Ryuk.jpeg" width="200px" id="img2">
+            <p>
+                He's Ryuk, the shinigami who owns my Death Note.
+            </p>
+        </div>
+        <br>
+        <div id="box5">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, veniam quaerat? Nobis commodi impedit eos amet sit cupiditate beatae quod eaque, at accusamus ipsa fuga. Ab blanditiis a soluta mollitia!
+            </p>
+        </div>        
+    
+    <!-- HTML Entities -->
+    <p class="odd" id="p1">
+        <h3>The HTML entities are given below :</h3>
+        <ul id="ul1">
+            <li>&lt; is less than</li>
+            <li>&gt; is greater than</li>
+            <li>&amp; is ampersand</li>
+            <li>&quot; is double quotation mark</li>
+            <li>&apos; is apostrophe</li>
+            <li>&mdash; is em dash character</li>
+            <li>&copy; is a copyright symbol</li>
+            <li>&rarr; is an arrow pointing right</li>
+            <li>&cent; is cent symbol</li>
+            <li>&pound; is pound sterling sign</li>
+            <li>&euro; is euro symbol</li>
+            <li>&reg; is registered trademark symbol</li>
+            <li>&sect; is section symbol</li>
+            <li>&#8377; is rupee symbol</li>
+            <li>&#x24; is US dollar symbol</li>
+        </ul>
+    </p>
+
+    <!-- Text Formatting Tag -->
+    <p class="even" id="p2">
+        <h3>The text formatting tags are given below :</h3>
+        <ul id="ul2">
+            <li>This is <i>Italicized</i> text</li>
+            <li>This is <b>Bold</b> text</li>
+            <li>This is <u>Underlined</u> text</li>
+            <li>This is <strike>Strikethrough</strike> text</li>
+            <li>This is <sup>Superscripted</sup> text</li>
+            <li>This is <sub>Subscripted</sub> text</li>
+            <li>This is <del>deleted</del> text</li>
+            <li>This is <mark>Highlighted</mark> text</li>
+            <li>This is <big>Big</big> text</li>
+            <li>This is <small>Small</small> text</li>
+            <li>This is <tt>Monospaced</tt> text</li>
+        </ul>
+    </p>
+    
+
+    <!-- Marquee Tag -->
+    <marquee behavior="scroll" direction="left">Scrolling text goes here.</marquee>
+    <br><br>
+
+    <!-- Dropdown -->
+    <div class="Content">
+        <label for="EVENTS">EVENTS</label>
+        <select name="event" id="EVENTS">
+            <div class="dropdown">
+                <option value="" disabled selected>Select an event</option>
+                <option value="TechConnect">TechConnect</option>
+                <option value="Hackathon">Hackathon</option>
+                <option value="Exhibition">Exhibition</option>
+                <option value="Hack Attack">Hack Attack</option>
+                <option value="Paper Prose">Paper Prose</option>
+                <option value="Tech Trivia">Tech Trivia</option>
+                <option value="Web Weave">Web Weave</option>
+                <option value="Ideathon">Ideathon</option>
+            </div>
+        </select>
+    </div>
+
+    <!-- Unordered List -->
+    <ul id="ul3">
+        <h3><p>List of some electronic devices</p></h3>
+        <li>Laptop</li>
+        <li>Phone</li>
+        <li>Tablet</li>
+        <li>Audio Devices</li>
+        <ul>
+            <li>Headphones</li>
+            <li>Earbuds</li>
+        </ul>
+    </ul>
+
+    <!-- Ordered List -->
+    <ol id="OList">
+        <h3><p>This list can be sorted just by clicking the Sort-list button</p></h3>
+        <li>Laptop</li>
+        <li>Phone</li>
+        <li>Tablet</li>
+        <li>Headphones</li>
+        <li>Earbuds</li>
+    </ol>
+    <button onclick="doSort()">Sort-list</button>
+
+    <!-- Definition List -->
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hypertext Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+        <dt>JavaScript</dt>
+        <dd>The programming language that makes  websites interactive</dd>
+    </dl>
+
+    <!-- Anchor Tag / Link -->
+    <p><a href="https://google.com">Google click me!</a></p>
+
+    <!-- Audio Tag -->
+    <audio controls ><!-- autoplay muted loop -->
+        <source src="Resources/Music/Circus.mpeg" type="audio/mpeg">
+    </audio><br>
+
+    <!-- Video Tag -->
+    <video controls src="Resources/Videos/DeathNoteEdit.mp4" width="250px" style="border: 2px solid black;"></video>
+
+    <!-- Form Tag -->
+    <form action="index.php" method="post" enctype="multipart/form-data">
+        <label for="user">User Name:</label>
+        <input type="text" id="user" placeholder="Your username here" minlength="6" maxlength="15" required><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" placeholder="user@gmail.com"><br>
+
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" required><br>
+
+        <label for="phone">Phone No.:</label>
+        <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+
+        <label for="bday">Birth Date:</label>
+        <input type="date" id="bday" required><br>
+
+        <label for="quan">Quantity:</label>
+        <input type="number" id="quan" min="0" max="99" value="1"><br>
+
+        <label for="title">Title:</label>
+        <label for="Mr">Mr.</label>
+        <input type="radio" id="Mr" value="Mr" name="title">
+        <label for="Ms">Ms.</label>
+        <input type="radio" id="Ms" value="Ms" name="title">
+        <label for="PhD">PhD.</label>
+        <input type="radio" id="PhD" value="PhD" name="title"><br>
+
+        <label for="pay">Payment Maethod:</label>
+        <select name="pay" id="pay">
+            <option value="visa">Visa</option>
+            <option value="mastercard">Mastercard</option>
+            <option value="giftcard">Giftcard</option>
+            <option value="upi">UPI</option>
+        </select><br>
+
+        <label for="sub">Subscribe</label>
+        <input type="checkbox" id="sub" required><br>
+
+        <label for="com">Comment:</label>
+        <textarea id="com" rows="3" cols="25"></textarea><br>
+
+        <label for="file">File:</label>
+        <input type="file" id="file" accept="image/png, image/jpeg"><br>
+
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form><br>
+
+    <!-- Table Tag -->
+    <fieldset>
+        <legend >Student Data</legend>
+        <table border="1">
+            <thead>
+                <tr align="center">
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>School</th> 
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Shivam</td>
+                    <td>shivam34@gmail.com</td>
+                    <td>LIS</td>
+                </tr>
+                <tr>
+                    <td>hemantb440@gmail.com</td>
+                    <td>FIs</td>
+                </tr>
+                <tr>
+                    <td>Ajay</td>
+                    <td colspan="2">ajay@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Kali</td>
+                    <td>kalilinux@google.com</td>
+                    <td>KVS</td>
+                </tr>
+            </tbody>
+        </table>
+    </fieldset><br>
+
+    <!-- Image Tag -->
+    <img src="Resources/Pics/Kira1.jpeg" alt="Example Image" width="100"><br>
+
+    <!-- Span Tag (Inline container to group elements for styling purposes) -->
+    <p><span>This is a span</span></p>
+
+    <!-- Division Tag (Block Container to group elements for styling purposes) -->
+    <p><div>This is a division</div></p>
+
+    <!-- Button Tag -->
+    <div id="button">
+    <p id="Wish">Hello there</p>
+    </div><br>
+    <button onclick="doSomething()">Submit</button>
+    <br><br>
+    
+    <!-- Pagination -->
+    <div class="pagination" id="pagination">
+        <h3>
+            <p>This demonstrates pagination.
+                Page #1
+            </p>
+        </h3>
+        <a href="index.html"><</a>
+        <a href="index.html" class="active">1</a>
+        <a href="index1.html">2</a>
+        <a href="index2.html">3</a>
+        <a href="index1.html">></a>
+    </div>
+
+    </main>
+    <hr>
+    <footer>
+        Author: TheCoderShivam<br>
+        &copy; Copyrights reserved<br>
+        <small><a href="mailto:thecodershivam@gmail.com">Mail address</a></small>
+    </footer>
+</body>
+</html>

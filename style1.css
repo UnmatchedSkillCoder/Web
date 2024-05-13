@@ -1,0 +1,59 @@
+header{
+    background-color: hsla(0, 0%, 100%, 0.86%);
+}
+h1{
+    font-size: 2.5rem;
+    /* background: linear-gradient(to right ,#FFFFFF ,#6284FF ); */
+     background: -webkit-gradient(linear, left top, right top, 
+        from(rgb(92, 194, 41)), color-stop(20%, rgb(196, 26, 3)), 
+        color-stop(40%, rgb(236, 190, 6)), 
+        color-stop(60%, rgb(25, 192, 89)), 
+        color-stop(80%, rgb(3, 116, 8)), 
+        to(rgb(196, 26, 3)));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    transition: 3s ease-out;
+    /* transition-duration: 3s; */
+}
+h1:hover{
+    background: linear-gradient(to left ,#2354FF ,#e8ff54 );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    transition: 3s;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    opacity: 1;
+}
+.image_holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    margin-top: 20px;
+    /* border-radius: 20px;
+    box-shadow:5px 20px   red ; */
+    /* border-radius: 20px;
+background: #e0e0e0;
+box-shadow:  11px 11px 22px #5a5a5a,
+             -11px -11px 22px #ffffff; */
+}
+img:hover{
+    border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow:  11px 11px 22px #5a5a5a,
+                 -11px -11px 22px #ffffff;
+}
+body{
+    background-image: url("Resources/Pics/Fest.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    margin-top: 400px;
+    font-size: 2rem;
+    color: white;
+}
